@@ -1,0 +1,11 @@
+Failsafe MSI (FSMSI)
+http://patrickmylund.com/projects/fsmsi/
+
+Failsafe MSI (FSMSI) is a Windows shell script that enables and starts the
+Windows Installer service in fail safe mode. This is particularly useful
+for removing applications that are preventing normal system startup but
+still require the MSI service to be running to be properly uninstalled.
+
+Usage:
+  To enable:  fsmsi.cmd
+  To disable: fsmsi.cmd deactivate
